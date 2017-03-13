@@ -1,0 +1,31 @@
+{
+  "name": "170313-js-add-spark",
+  "version": "1.0.0",
+  "description": "Learning JavaScript - Add Sparkle and Life to Your Web Pages - 3rd Edition (2016)",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madiskrt/170313-js-add-spark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madiskrt/170313-js-add-spark/issues"
+  },
+  "homepage": "https://github.com/madiskrt/170313-js-add-spark#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1"
+  }
+}
