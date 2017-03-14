@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="main.css">
-</head>
+	<link rel="stylesheet" type="text/css" href="main.css"></head>
 <body>
 
 <script>
@@ -16,7 +15,48 @@
 	const small = Number.EPSILON;
 	console.log(small);
 
+	//string templates, string interpolation
+	const message = "The current temp is ${currentTempC} Celsius";
+	console.log(message);
+
+	const multiline = "line1\
+	line2";
+	console.log(multiline);
+
+	const multiline2 = "line1\n" +
+	"line2\n" +
+	"line3";
+	console.log(multiline2);
+
+	//Symbols new in ES6
+	const RED = Symbol();
+	const ORANGE = Symbol("The color of sunset!");
+	console.log(ORANGE);
+
+	const obj = {}; //empty object, container
+	obj.color;
+	obj["not an identifier"];
+	obj[ORANGE];
+
+	const sam1 = {
+		name: 'Sam',
+		age: 4,
+	}
+
+	const sam3 = {
+		name: "Sam",
+		classification: {
+			kingdom: 'Anamalia',
+			subfamily: 'Felinae',
+		},
+	};
+
+	console.log(sam1);
+	console.log(sam3);
+
 </script>
+
+<img src="img/170313-Literals-Variables-Constants.html.jpg" border="1">
 
 </body>
 </html>
